@@ -1,5 +1,50 @@
 [
     {
+        "id": "O1",
+        "title": "HSP Basics",
+        "url": "../practical-solubility/hsp-basics.php"
+    },
+    {
+        "id": "O2",
+        "title": "HSP Solvent Blends",
+        "url": "../practical-solubility/solvent-blends.php"
+    },
+    {
+        "id": "O3",
+        "title": "HSP Miscibility",
+        "url": "../practical-solubility/miscibility.php"
+    },
+    {
+        "id": "O4",
+        "title": "HSP Polymer Blends",
+        "url": "../practical-solubility/polymer-blends.php"
+    },
+    {
+        "id": "O5",
+        "title": "Polymer Physics Polymers in Solvents",
+        "url": "../practical-solubility/polymers-in-solvents.php"
+    },
+    {
+        "id": "O6",
+        "title": "Polymer Physics Polymer Swelling",
+        "url": "../practical-solubility/polymer-swelling.php"
+    },
+    {
+        "id": "O7",
+        "title": "Polymer Physics Polymers across Boundaries",
+        "url": "../practical-solubility/polymers-across-boundaries.php"
+    },
+    {
+        "id": "O8",
+        "title": "Polymer Physics Entanglements",
+        "url": "../practical-solubility/polymer-entanglement.php"
+    },
+    {
+        "id": "O9",
+        "title": "Polymer Physics MWts",
+        "url": "../practical-solubility/polymer-mwts.php"
+    },
+    {
         "id": "O10",
         "title": "Polymer Physics Fox Equation",
         "url": "../practical-solubility/polymer-fox-equation.php"
