@@ -225,11 +225,6 @@
         "url": "../practical-surfactants/pickering.php"
     },
     {
-        "id": "U45",
-        "title": "Cloud Point and Krafft",
-        "url": "../practical-surfactants/cloud-krafft.php"
-    },
-    {
         "id": "U46",
         "title": "Emulsion Inversion",
         "url": "../practical-surfactants/inversion.php"
@@ -238,5 +233,10 @@
         "id": "U47",
         "title": "Bancroft's Rule",
         "url": "../practical-surfactants/bancroft.php"
+    },
+  {
+    "id": "U48",
+    "title": "Cloud Point and Krafft",
+    "url": "../practical-surfactants/cloud-krafft.php"
     }
 ]
