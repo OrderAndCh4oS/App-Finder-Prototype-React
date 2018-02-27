@@ -1,0 +1,74 @@
+[
+    {
+        "id": "P1",
+        "title": "Adhesion"
+    },
+    {
+        "id": "P2",
+        "title": "Blooming"
+    },
+    {
+        "id": "P3",
+        "title": "Coalescence"
+    },
+    {
+        "id": "P4",
+        "title": "Colour"
+    },
+    {
+        "id": "P5",
+        "title": "Creaming/Sedimentation"
+    },
+    {
+        "id": "P6",
+        "title": "Dispersibility"
+    },
+    {
+        "id": "P7",
+        "title": "Flocculation"
+    },
+    {
+        "id": "P8",
+        "title": "Foam"
+    },
+    {
+        "id": "P9",
+        "title": "Friction"
+    },
+    {
+        "id": "P10",
+        "title": "Gloss"
+    },
+    {
+        "id": "P11",
+        "title": "Ostwald ripening"
+    },
+    {
+        "id": "P12",
+        "title": "Scattering"
+    },
+    {
+        "id": "P13",
+        "title": "Segregation"
+    },
+    {
+        "id": "P14",
+        "title": "Solubility"
+    },
+    {
+        "id": "P15",
+        "title": "Stability"
+    },
+    {
+        "id": "P16",
+        "title": "Surface hardness"
+    },
+    {
+        "id": "P17",
+        "title": "Viscosity"
+    },
+    {
+        "id": "P18",
+        "title": "Wetting"
+    }
+]

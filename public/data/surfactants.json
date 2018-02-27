@@ -1,0 +1,242 @@
+[
+    {
+        "id": "U1",
+        "title": "HLD",
+        "url": "../practical-surfactants/hld.php"
+    },
+    {
+        "id": "U2",
+        "title": "EACN values",
+        "url": "../practical-surfactants/eacn.php"
+    },
+    {
+        "id": "U3",
+        "title": "Cc values",
+        "url": "../practical-surfactants/cc.php"
+    },
+    {
+        "id": "U4",
+        "title": "Oil solubility",
+        "url": "../practical-surfactants/solubility.php"
+    },
+    {
+        "id": "U5",
+        "title": "IFT",
+        "url": "../practical-surfactants/ift.php"
+    },
+    {
+        "id": "U6",
+        "title": "CPP",
+        "url": "../practical-surfactants/cpp.php"
+    },
+    {
+        "id": "U7",
+        "title": "Roll-up",
+        "url": "../practical-surfactants/roll-up.php"
+    },
+    {
+        "id": "U8",
+        "title": "Roll-up Eötvös",
+        "url": "../practical-surfactants/eotvos.php"
+    },
+    {
+        "id": "U9",
+        "title": "Measure EACN",
+        "url": "../practical-surfactants/measure-eacn.php"
+    },
+    {
+        "id": "U10",
+        "title": "Measure Cc",
+        "url": "../practical-surfactants/measure-cc.php"
+    },
+    {
+        "id": "U11",
+        "title": "Fish diagram",
+        "url": "../practical-surfactants/fish-and-more.php"
+    },
+    {
+        "id": "U12",
+        "title": "Fish-tail diagram",
+        "url": "../practical-surfactants/fishtail.php"
+    },
+    {
+        "id": "U13",
+        "title": "Emulsion stability",
+        "url": "../practical-surfactants/estability.php"
+    },
+    {
+        "id": "U14",
+        "title": "PennSurf2 Microemulsion phases",
+        "url": "../practical-surfactants/pennsurf2.php"
+    },
+    {
+        "id": "U15",
+        "title": "Curvature",
+        "url": "../practical-surfactants/curvature.php"
+    },
+    {
+        "id": "U16",
+        "title": "Emulsion surface area",
+        "url": "../practical-surfactants/emusa.php"
+    },
+    {
+        "id": "U17",
+        "title": "Emulsion viscosity",
+        "url": "../practical-surfactants/emuvisc.php"
+    },
+    {
+        "id": "U18",
+        "title": "Emulsion drop size",
+        "url": "../practical-surfactants/drops.php"
+    },
+    {
+        "id": "U19",
+        "title": "Size distributions",
+        "url": "../practical-surfactants/distribution.php"
+    },
+    {
+        "id": "U20",
+        "title": "Creaming",
+        "url": "../practical-surfactants/creaming.php"
+    },
+    {
+        "id": "U21",
+        "title": "Flocculation",
+        "url": "../practical-surfactants/flocculation.php"
+    },
+    {
+        "id": "U22",
+        "title": "Ostwald",
+        "url": "../practical-surfactants/ostwald.php"
+    },
+    {
+        "id": "U23",
+        "title": "Coalescence",
+        "url": "../practical-surfactants/coalescence.php"
+    },
+    {
+        "id": "U24",
+        "title": "DLVO for emulsions",
+        "url": "../practical-surfactants/dlvo.php"
+    },
+    {
+        "id": "U25",
+        "title": "Viscosity ratios",
+        "url": "../practical-surfactants/critcap.php"
+    },
+    {
+        "id": "U26",
+        "title": "DST",
+        "url": "../practical-surfactants/dst.php"
+    },
+    {
+        "id": "U27",
+        "title": "DST Choice",
+        "url": "../practical-surfactants/dst-choice.php"
+    },
+    {
+        "id": "U28",
+        "title": "DST around equilibrium",
+        "url": "../practical-surfactants/crm.php"
+    },
+    {
+        "id": "U29",
+        "title": "SDT",
+        "url": "../practical-surfactants/sdt.php"
+    },
+    {
+        "id": "U30",
+        "title": "Partition coefficients",
+        "url": "../practical-surfactants/partition.php"
+    },
+    {
+        "id": "U31",
+        "title": "Surfactant types",
+        "url": "../practical-surfactants/surfactant-types.php"
+    },
+    {
+        "id": "U32",
+        "title": "CMC values",
+        "url": "../practical-surfactants/cmc-values.php"
+    },
+    {
+        "id": "U33",
+        "title": "CMC and Γ",
+        "url": "../practical-surfactants/cmc.php"
+    },
+    {
+        "id": "U34",
+        "title": "CMC & Saturation",
+        "url": "../practical-surfactants/cmcsat.php"
+    },
+    {
+        "id": "U35",
+        "title": "STAND",
+        "url": "../practical-surfactants/STAND.php"
+    },
+    {
+        "id": "U36",
+        "title": "Elasticity",
+        "url": "../practical-surfactants/elasticity.php"
+    },
+    {
+        "id": "U37",
+        "title": "Phase diagrams",
+        "url": "../practical-surfactants/pde.php"
+    },
+    {
+        "id": "U38",
+        "title": "Foam elasticity",
+        "url": "../practical-surfactants/foam-elasticity.php"
+    },
+    {
+        "id": "U39",
+        "title": "Foam DLVO",
+        "url": "../practical-surfactants/foam-dlvo.php"
+    },
+    {
+        "id": "U40",
+        "title": "Foam Ostwald",
+        "url": "../practical-surfactants/foam-ostwald.php"
+    },
+    {
+        "id": "U41",
+        "title": "Foam Drainage",
+        "url": "../practical-surfactants/foam-drainage.php"
+    },
+    {
+        "id": "U42",
+        "title": "Foam Fractionation",
+        "url": "../practical-surfactants/foam-fractionation.php"
+    },
+    {
+        "id": "U43",
+        "title": "Foam Rheology",
+        "url": "../practical-surfactants/foam-rheology.php"
+    },
+    {
+        "id": "U44",
+        "title": "Antifoams",
+        "url": "../practical-surfactants/anti-foams.php"
+    },
+    {
+        "id": "U45",
+        "title": "Pickering Emulsions",
+        "url": "../practical-surfactants/pickering.php"
+    },
+    {
+        "id": "U45",
+        "title": "Cloud Point and Krafft",
+        "url": "../practical-surfactants/cloud-krafft.php"
+    },
+    {
+        "id": "U46",
+        "title": "Emulsion Inversion",
+        "url": "../practical-surfactants/inversion.php"
+    },
+    {
+        "id": "U47",
+        "title": "Bancroft's Rule",
+        "url": "../practical-surfactants/bancroft.php"
+    }
+]
