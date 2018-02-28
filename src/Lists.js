@@ -36,7 +36,7 @@ export default class Lists extends Component {
             types: prevState.types.map(
                 (x) => {
                     x.selected = false;
-                    x.active = data.types.includes(x.id);
+                    x.active = data.id === 'I0' || data.types.includes(x.id);
                     return x;
                 }),
             functions: prevState.functions.map(Functions.setProperties),
@@ -54,7 +54,8 @@ export default class Lists extends Component {
             functions: prevState.functions.map(
                 (x) => {
                     x.selected = false;
-                    x.active = data.functions.includes(x.id);
+                    x.active = data.id === 'T0' ||
+                        data.functions.includes(x.id);
                     return x;
                 }),
             apps: prevState.apps.map(Functions.setProperties),
@@ -72,7 +73,7 @@ export default class Lists extends Component {
             apps: prevState.apps.map(
                 (x) => {
                     x.selected = false;
-                    x.active = data.apps.includes(x.id);
+                    x.active = data.id === 'F0' || data.apps.includes(x.id);
                     return x;
                 },
             ),

@@ -1,5 +1,10 @@
 [
     {
+      "id": "T0",
+      "title": "All",
+      "functions": []
+    },
+  {
         "id": "T1",
         "title": "Composite",
         "functions": ["F1", "F3", "F11", "F14"]

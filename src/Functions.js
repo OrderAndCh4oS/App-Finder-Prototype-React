@@ -32,10 +32,19 @@ export default class Functions {
                 x.active = true;
                 x.selected = false;
                 return x;
-            }),
-            types: types.data.map(Functions.setProperties),
-            functions: functions.data.map(Functions.setProperties),
-            apps: apps.map(Functions.setProperties),
+            }).sort(Functions.sortByTitle),
+            types: types.data.map(Functions.setProperties)
+                .sort(Functions.sortByTitle),
+            functions: functions.data.map(Functions.setProperties)
+                .sort(Functions.sortByTitle),
+            apps: apps.map(Functions.setProperties).sort(Functions.sortByTitle),
         };
+    }
+
+    static sortByTitle(a, b) {
+        if(a.title === 'All') return -1;
+        if(a.title < b.title) return -1;
+        if(a.title > b.title) return 1;
+        return 0;
     }
 }

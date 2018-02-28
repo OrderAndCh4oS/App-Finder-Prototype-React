@@ -1,5 +1,10 @@
 [
     {
+        "id": "I0",
+        "title": "All",
+        "types": []
+    },
+    {
         "id": "I1",
         "title": "Adhesives",
         "types": ["T3", "T4", "T5", "T8"]
