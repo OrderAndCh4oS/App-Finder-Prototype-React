@@ -4,17 +4,26 @@ import './List.css';
 
 export default class List extends Component {
     state = {
-        timer: null,
+        hovered: false,
     };
 
     render() {
         return (
             <div>
-                <button onMouseOver={
+                <button onMouseLeave={() => {
+                    this.setState({
+                        hovered: false,
+                    });
+                }} onMouseEnter={() => {
+                    this.setState({
+                        hovered: true,
+                    });
+                }} onMouseOver={
                     debounce(() => {
-                        console.log('1');
-                        this.props.filterList(this.props.list);
-                    }, 200)
+                        if(this.state.hovered) {
+                            this.props.filterList(this.props.list);
+                        }
+                    }, 400)
                 } className={
                     'delay bg-black white b--black pointer hover-bg-blue bn mb1 pa3 pr4 pl4 f4 db w-90 dib tl'
                     + (this.props.list.selected ? ' selected' : '')

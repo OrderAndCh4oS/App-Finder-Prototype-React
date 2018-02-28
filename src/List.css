@@ -1,3 +1,3 @@
 .delay:hover {
-    transition: background-color 250ms cubic-bezier(.34, .01, 1, .18);
+    transition: background-color 450ms cubic-bezier(.3, .0, 1, .15);
 }
