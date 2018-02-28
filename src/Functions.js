@@ -1,26 +1,26 @@
 import axios from 'axios';
 
 export default class Functions {
-    static setProperties = (x) => {
-        x.active = false;
-        x.selected = false;
-        return x;
+    static setProperties = (item) => {
+        item.active = false;
+        item.selected = false;
+        return item;
     };
 
     static async getData() {
         const industries = await axios.get(
-            'http://localhost:3000/data/industry.json');
-        const types = await axios.get('http://localhost:3000/data/type.json');
+            '/data/industry.json');
+        const types = await axios.get('/data/type.json');
         const functions = await axios.get(
-            'http://localhost:3000/data/function.json');
+            '/data/function.json');
         const adhesion = await axios.get(
-            'http://localhost:3000/data/adhesion.json');
+            '/data/adhesion.json');
         const coatings = await axios.get(
-            'http://localhost:3000/data/coatings.json');
+            '/data/coatings.json');
         const solubility = await axios.get(
-            'http://localhost:3000/data/solubility.json');
+            '/data/solubility.json');
         const surfactants = await axios.get(
-            'http://localhost:3000/data/surfactants.json');
+            '/data/surfactants.json');
         const apps = [
             ...adhesion.data,
             ...coatings.data,
@@ -28,10 +28,10 @@ export default class Functions {
             ...surfactants.data,
         ];
         return {
-            industries: industries.data.map((x) => {
-                x.active = true;
-                x.selected = false;
-                return x;
+            industries: industries.data.map((industry) => {
+                industry.active = true;
+                industry.selected = false;
+                return industry;
             }).sort(Functions.sortByTitle),
             types: types.data.map(Functions.setProperties)
                 .sort(Functions.sortByTitle),
