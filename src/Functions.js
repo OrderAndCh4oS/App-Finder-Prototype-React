@@ -27,17 +27,28 @@ export default class Functions {
             ...solubility.data,
             ...surfactants.data,
         ];
+        const data = {
+            industries: industries.data,
+            types: types.data,
+            functions: functions.data,
+            apps: apps,
+        };
+        return this.initialState(data);
+    }
+
+    static initialState(data) {
         return {
-            industries: industries.data.map((industry) => {
+            industries: data.industries.map((industry) => {
                 industry.active = true;
                 industry.selected = false;
                 return industry;
             }).sort(Functions.sortByTitle),
-            types: types.data.map(Functions.setProperties)
+            types: data.types.map(Functions.setProperties)
                 .sort(Functions.sortByTitle),
-            functions: functions.data.map(Functions.setProperties)
+            functions: data.functions.map(Functions.setProperties)
                 .sort(Functions.sortByTitle),
-            apps: apps.map(Functions.setProperties).sort(Functions.sortByTitle),
+            apps: data.apps.map(Functions.setProperties)
+                .sort(Functions.sortByTitle),
         };
     }
 

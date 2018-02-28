@@ -29,14 +29,29 @@ export default class Lists extends Component {
         this.setState(data);
     }
 
+    search = (value, item) => {
+        item.active = (item.title.toLowerCase().indexOf(value.toLowerCase()) !==
+            -1);
+        return item;
+    };
+
     searchApps(value) {
+        if(value.length < 2) {
+            this.setState((prevState) => (Functions.initialState(prevState)));
+            return;
+        }
         this.setState((prevState) => ({
-            industries: prevState.industries,
-            types: prevState.types,
-            functions: prevState.functions,
-            apps: prevState.apps.map((x) => {
-                x.active = x.title.includes(value);
-                return x;
+            industries: prevState.industries.map((item) => {
+                return this.search(value, item);
+            }),
+            types: prevState.types.map((item) => {
+                return this.search(value, item);
+            }),
+            functions: prevState.functions.map((item) => {
+                return this.search(value, item);
+            }),
+            apps: prevState.apps.map((item) => {
+                return this.search(value, item);
             }),
         }));
     }
@@ -107,34 +122,35 @@ export default class Lists extends Component {
 
     setList(filter) {
         return list =>
-            <div key={list.id}>
-                <List list={list} filterList={filter}/>
-            </div>;
+            <List key={list.id} list={list} filterList={filter}/>;
     };
 
     render() {
         return (
             <div>
-                <ToolBar searchApps={this.searchApps} />
+                <ToolBar searchApps={this.searchApps}/>
                 <div className="flex mt3">
                     <div className="pb1 w-25">
+                        <h2 className="sans-serif mb2">Industries</h2>
                         {this.renderLists(this.state.industries,
                             this.filterTypes)}
                     </div>
                     <div className="pb1 w-25">
+                        <h2 className="sans-serif mb2">Types</h2>
                         {this.renderLists(this.state.types,
                             this.filterFunctions)}
                     </div>
                     <div className="pb1 w-25">
+                        <h2 className="sans-serif mb2">Functions</h2>
                         {this.renderLists(this.state.functions,
                             this.filterApps)}
                     </div>
                     <div className="pb1 w-25">
+                        <h2 className="sans-serif mb2">Apps</h2>
                         {this.renderLists(this.state.apps, this.showAppData)}
                     </div>
                 </div>
             </div>
         );
     }
-
 }

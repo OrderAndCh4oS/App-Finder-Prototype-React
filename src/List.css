@@ -1,3 +1,11 @@
 .delay:hover {
     transition: background-color 450ms cubic-bezier(.3, .0, 1, .15);
 }
+
+.delay:hover:after {
+    transition: border-color 450ms cubic-bezier(.3, .0, 1, .15);
+}
+
+.delay:focus {
+    outline: none;
+}
