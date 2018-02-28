@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Functions from './Functions';
 import List from './List';
+import ToolBar from './ToolBar';
 import './Lists.css';
 
 export default class Lists extends Component {
@@ -17,6 +18,7 @@ export default class Lists extends Component {
 
     constructor() {
         super();
+        this.searchApps = this.searchApps.bind(this);
         this.filterTypes = this.filterTypes.bind(this);
         this.filterFunctions = this.filterFunctions.bind(this);
         this.filterApps = this.filterApps.bind(this);
@@ -25,6 +27,18 @@ export default class Lists extends Component {
     async componentDidMount() {
         const data = await Functions.getData();
         this.setState(data);
+    }
+
+    searchApps(value) {
+        this.setState((prevState) => ({
+            industries: prevState.industries,
+            types: prevState.types,
+            functions: prevState.functions,
+            apps: prevState.apps.map((x) => {
+                x.active = x.title.includes(value);
+                return x;
+            }),
+        }));
     }
 
     filterTypes(data) {
@@ -100,21 +114,24 @@ export default class Lists extends Component {
 
     render() {
         return (
-            <div className="flex mt3">
-                <div className="pb1 w-25">
-                    {this.renderLists(this.state.industries,
-                        this.filterTypes)}
-                </div>
-                <div className="pb1 w-25">
-                    {this.renderLists(this.state.types,
-                        this.filterFunctions)}
-                </div>
-                <div className="pb1 w-25">
-                    {this.renderLists(this.state.functions,
-                        this.filterApps)}
-                </div>
-                <div className="pb1 w-25">
-                    {this.renderLists(this.state.apps, this.showAppData)}
+            <div>
+                <ToolBar searchApps={this.searchApps} />
+                <div className="flex mt3">
+                    <div className="pb1 w-25">
+                        {this.renderLists(this.state.industries,
+                            this.filterTypes)}
+                    </div>
+                    <div className="pb1 w-25">
+                        {this.renderLists(this.state.types,
+                            this.filterFunctions)}
+                    </div>
+                    <div className="pb1 w-25">
+                        {this.renderLists(this.state.functions,
+                            this.filterApps)}
+                    </div>
+                    <div className="pb1 w-25">
+                        {this.renderLists(this.state.apps, this.showAppData)}
+                    </div>
                 </div>
             </div>
         );
