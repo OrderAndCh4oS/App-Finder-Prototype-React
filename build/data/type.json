@@ -1,0 +1,52 @@
+[
+    {
+      "id": "T0",
+      "title": "All",
+      "functions": []
+    },
+  {
+        "id": "T1",
+        "title": "Composite",
+        "functions": ["F1", "F3", "F11", "F14"]
+    },
+    {
+        "id": "T2",
+        "title": "Cream & Lotion",
+        "functions": ["F1", "F2", "F5", "F7", "F8", "F9", "F12", "F13", "F15", "F16", "F17", "F19"]
+    },
+    {
+        "id": "T3",
+        "title": "Dispersion/Suspension",
+        "functions": ["F1", "F7", "F8", "F9", "F13", "F15", "F16", "F17", "F19", "F20"]
+    },
+    {
+        "id": "T4",
+        "title": "Emulsion",
+        "functions": ["F1", "F5", "F6", "F7", "F8", "F10", "F12", "F15", "F16"]
+    },
+    {
+        "id": "T5",
+        "title": "Gel/Semi-Solid",
+        "functions": ["F1", "F2", "F5", "F6", "F9", "F12", "F13", "F15", "F16"]
+    },
+    {
+        "id": "T6",
+        "title": "Powder or Granule",
+        "functions": ["F4", "F7", "F11", "F20"]
+    },
+    {
+        "id": "T7",
+        "title": "Solid Solution",
+        "functions": ["F5", "F11", "F12"]
+    },
+    {
+        "id": "T8",
+        "title": "Solution",
+        "functions": ["F1", "F2", "F4", "F5", "F9", "F11", "F12", "F16", "F17"]
+    },
+    {
+        "id": "T9",
+        "title": "Tablet",
+        "functions": ["F1", "F2", "F4", "F20"]
+    }
+]

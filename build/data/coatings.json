@@ -1,0 +1,197 @@
+[
+    {
+        "id": "C21",
+        "title": "Coating/Printing Coatweight",
+        "url": "/practical-coatings/coatweight.php"
+    },
+    {
+        "id": "C22",
+        "title": "Coating/Printing Contact Angles",
+        "url": "/practical-coatings/contact-angles.php"
+    },
+    {
+        "id": "C23",
+        "title": "Coating/Printing Rheology",
+        "url": "/practical-coatings/rheology.php"
+    },
+    {
+        "id": "C24",
+        "title": "Coating/Printing Viscosity",
+        "url": "/practical-coatings/viscosity.php"
+    },
+    {
+        "id": "C25",
+        "title": "Coating/Printing Cup Viscosity",
+        "url": "/practical-coatings/Cup-Viscosity.php"
+    },
+    {
+        "id": "C26",
+        "title": "Percolation",
+        "url": "/practical-coatings/percolation.php"
+    },
+    {
+        "id": "C27",
+        "title": "Permeability",
+        "url": "/practical-coatings/permeability.php"
+    },
+    {
+        "id": "C28",
+        "title": "Shelf-life Moisture",
+        "url": "/practical-coatings/shelf-life1.php"
+    },
+    {
+        "id": "C29",
+        "title": "Shelf-life Oxygen",
+        "url": "/practical-coatings/shelf-life2.php"
+    },
+    {
+        "id": "C30",
+        "title": "Pinhole Models",
+        "url": "/practical-coatings/3models.php"
+    },
+    {
+        "id": "C31",
+        "title": "Nanoclays",
+        "url": "/practical-coatings/nanoclays.php"
+    },
+    {
+        "id": "C32",
+        "title": "Thickness Measurement Interference",
+        "url": "/practical-coatings/interference.php"
+    },
+    {
+        "id": "C33",
+        "title": "Thickness Measurement OD",
+        "url": "/practical-coatings/od.php"
+    },
+    {
+        "id": "C34",
+        "title": "Thickness Measurement Near-IR",
+        "url": "/practical-coatings/near-ir.php"
+    },
+    {
+        "id": "C35",
+        "title": "Thickness Measurement Beta Gauge",
+        "url": "/practical-coatings/beta.php"
+    },
+    {
+        "id": "C36",
+        "title": "Thickness Measurement Gamma",
+        "url": "/practical-coatings/gamma.php"
+    },
+    {
+        "id": "C37",
+        "title": "Mechanics Modulus",
+        "url": "/practical-coatings/modulus.php"
+    },
+    {
+        "id": "C38",
+        "title": "Mechanics Grinding",
+        "url": "/practical-coatings/grinding.php"
+    },
+    {
+        "id": "C39",
+        "title": "Mechanics Nanoindentation",
+        "url": "/practical-coatings/nanoindentation.php"
+    },
+    {
+        "id": "C40",
+        "title": "Mechanics Stefan Squeeze",
+        "url": "/practical-coatings/stefan.php"
+    },
+    {
+        "id": "C41",
+        "title": "Printing Screen",
+        "url": "/practical-coatings/screen-printing.php"
+    },
+    {
+        "id": "C42",
+        "title": "Printing Flexo",
+        "url": "/practical-coatings/flexo-printing.php"
+    },
+    {
+        "id": "C43",
+        "title": "Printing Gravure",
+        "url": "/practical-coatings/gravure-printing.php"
+    },
+    {
+        "id": "C44",
+        "title": "Printing Critical Pigment Vol Conc",
+        "url": "/practical-coatings/CPVC.php"
+    },
+    {
+        "id": "C45",
+        "title": "Printing Walker-Fesko",
+        "url": "/practical-coatings/Walker-Fetsko.php"
+    },
+    {
+        "id": "C46",
+        "title": "Printing Kubelka-Munk",
+        "url": "/practical-coatings/Kubelka-Munk.php"
+    },
+    {
+        "id": "C47",
+        "title": "Printing Yule-Nielsen",
+        "url": "/practical-coatings/Yule-Nielsen.php"
+    },
+    {
+        "id": "C48",
+        "title": "Printing Flash Cure",
+        "url": "/practical-coatings/flash-cure.php"
+    },
+    {
+        "id": "C49",
+        "title": "Printing Palierne Viscosity",
+        "url": "/practical-coatings/Palierne.php"
+    },
+    {
+        "id": "C50",
+        "title": "Printing Inkjet lines",
+        "url": "/practical-coatings/InkJetLines.php"
+    },
+    {
+        "id": "C51",
+        "title": "Printing Moiré",
+        "url": "/practical-coatings/Moire.php"
+    },
+    {
+        "id": "C52",
+        "title": "Microfluidics Capillary Bubbles",
+        "url": "/practical-coatings/cap-bubbles.php"
+    },
+    {
+        "id": "C53",
+        "title": "Microfluidics Capillary Flow",
+        "url": "/practical-coatings/capillary-flow.php"
+    },
+    {
+        "id": "C54",
+        "title": "Microfluidics Capillary Fill Time",
+        "url": "/practical-coatings/capfill-time.php"
+    },
+    {
+        "id": "C55",
+        "title": "Microfluidics T Mixer",
+        "url": "/practical-coatings/t-mixer.php"
+    },
+    {
+        "id": "C56",
+        "title": "Coating/Printing Drop bsorption",
+        "url": "/practical-coatings/drop-absorption.php"
+    },
+    {
+        "id": "C57",
+        "title": "Printing Anilox Rollers",
+        "url": "/practical-coatings/Anilox.php"
+    },
+    {
+        "id": "C58",
+        "title": "Water Vapour Calculations",
+        "url": "/practical-coatings/Water-Vap.php"
+    },
+    {
+        "id": "C59",
+        "title": "Mechanics Milling",
+        "url": "/practical-coatings/milling.php"
+    }
+]
