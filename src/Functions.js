@@ -8,19 +8,20 @@ export default class Functions {
     };
 
     static async getData() {
+        const baseUrl = 'https://sarcoma.github.io/App-Finder-Prototype-React/build';
         const industries = await axios.get(
-            '/data/industry.json');
-        const types = await axios.get('/data/type.json');
+            baseUrl+'/data/industry.json');
+        const types = await axios.get(baseUrl+'/data/type.json');
         const functions = await axios.get(
-            '/data/function.json');
+            baseUrl+'/data/function.json');
         const adhesion = await axios.get(
-            '/data/adhesion.json');
+            baseUrl+'/data/adhesion.json');
         const coatings = await axios.get(
-            '/data/coatings.json');
+            baseUrl+'/data/coatings.json');
         const solubility = await axios.get(
-            '/data/solubility.json');
+            baseUrl+'/data/solubility.json');
         const surfactants = await axios.get(
-            '/data/surfactants.json');
+            baseUrl+'/data/surfactants.json');
         const apps = [
             ...adhesion.data,
             ...coatings.data,
